@@ -1,0 +1,40 @@
+@import "bootstrap";
+
+#donatePage{
+	background-color: white;
+	width: 100%;
+	height: 100%;
+}
+#dfirstColumn{
+	margin-top: 50px;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+#dsecondColumn{
+	padding: 0px;
+	margin-top: 30px;
+	margin-left: 100px;
+	width: 40%;
+	float: left;
+}
+#dthirdColumn{
+	padding: 0px;
+	margin-top: 30px;
+	margin-right: 100px;
+	width: 40%;
+	float: right;
+}
+#rowOne img{
+	height: 200px;
+}
+.dfontOne{
+	margin-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.dfontTwo{
+	margin-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}

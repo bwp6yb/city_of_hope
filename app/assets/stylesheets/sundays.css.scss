@@ -1,0 +1,59 @@
+@import "bootstrap" ;
+
+#sundaysPage{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+#sfirstColumn{
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#ssecondColumn{
+  padding: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 100px;
+  margin-right: 0px;
+  margin-top: 30px;
+  float: left;
+  width: 40%;
+}
+#sthirdColumn{
+  padding: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: yellow;
+  margin-left: 0px;
+  margin-right: 100px;
+  margin-top: 30px;
+  float: right;
+  width: 40%;
+}
+#rowOne img{
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding: 0;
+}
+p img {
+  float: left;
+}
+.sfontOne{
+  margin-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.sfontTwo{
+  margin-top: 0px;
+  color: white;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+
+
+

@@ -1,11 +1,22 @@
-<!DOCTYPE html>
-<html>
-	<body>
-		<h1>Contact Us</h1>
-		<p>address: 110 N Orr St Columbia, MO</p>
-		<p>phone: (573) 489-8069</p>
-		<p>email: ccfjoe@juno.com</p>
+<%= stylesheet_link_tag "sundays" %>
 
-		<p>Click above to get directions of City of Hope Sunday service at ten am and office open throughout the week</p>
-	</body>
-</html>
+<div class = "container" id = "contactPage">
+	<div class = "row" id = "rowOne">
+		<div class = "col-md-12" id = "cfirstColumn">
+			<%= image_tag "crowd.jpg", width: "100%" %>
+		</div>
+	</div>
+	<div class = "row" id = "rowTwo">
+		<div class = "col-md-6" id = "csecondColumn">
+			<h1 class="cfontOne" id="redBackground">Contact Us</h1>
+			<p class="cfontOne">address: 110 N Orr St Columbia, MO</p>
+			<p class="cfontOne">phone: (573) 489-8069</p>
+			<p class="cfontOne">email: ccfjoe@juno.com</p>
+		</div>
+		<div class = "col-md-6" id = "thirdColumn">
+			<%= render 'layouts/map' %>
+			<p class="cfontTwo">Click above to get directions of City of Hope Sunday service at ten am and office open through the week</p>
+		</div>
+	</div>
+</div>
+

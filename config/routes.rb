@@ -1,13 +1,14 @@
 CityOfHope::Application.routes.draw do
-  get "static_pages/home"
-  get "static_pages/about"
-  get "static_pages/sundays"
-  get "static_pages/vision"
-  get "static_pages/contact"
-  get "static_pages/communities"
-  get "static_pages/support"
-  get "static_pages/service"
-  get "static_pages/donate"
+  root 'static_pages#home'
+  match 'about',      to: 'static_pages#about',        via: 'get'
+  match 'sundays',    to: 'static_pages#sundays',      via: 'get'
+  match 'vision',     to: 'static_pages#vision',       via: 'get'
+  match 'contact',    to: 'static_pages#contact',      via: 'get'
+  match 'communities',to: 'static_pages#communities',  via: 'get'
+  match 'support',    to: 'static_pages#support',      via: 'get'
+  match 'service',    to: 'static_pages#service',      via: 'get'
+  match 'donate',     to: 'static_pages#donate',       via: 'get'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
