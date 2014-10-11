@@ -6,35 +6,91 @@
 	height: 100%;
 }
 #afirstColumn{
-	margin-top: 50px;
-	padding-top: 20px;
-	padding-left: 50px;
-	padding-right: 50px;
+	margin-top: 20px;
+	padding-top: 50px;
+	width: 67.1%;
+	margin-left: 210px;
 }
 #asecondColumn{
 	padding: 0px;
-	margin-top: 30px;
-	margin-left: 100px;
-	width: 40%;
-	float: left;
+  	padding-left: 0px;
+  	padding-right: 0px;
+  	margin-left: 225px;
+  	margin-right: 0px;
+  	margin-top: 30px;
+  	float: left;
+  	width: 30%;
 }
 #athirdColumn{
 	padding: 0px;
-	margin-top: 30px;
-	margin-right: 100px;
-	width: 40%;
-	float: right;
+  	padding-left: 0px;
+  	padding-right: 0px;
+  	margin-left: 0px;
+  	margin-right: 225px;
+  	margin-top: 30px;
+  	float: right;
+  	width: 30%;
 }
 #rowOne img{
-	height: 200px;
+	width: 100%;
+  	padding-left: 100px;
+  	padding-right: 100px;
+  	padding: 0;
+  	height: 250px;
 }
 #rowTwo img{
 	margin-top: 0px;
-	width: 82.5%;
-	height: 175px;
+	width: 100%;
+	height: 200px;
 }
 .afontOne{
 	margin-top: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
+}
+.spacing{
+	word-spacing: 35px;
+}
+.extrasFont{
+	font-size: 135%;
+}
+.extraFont{
+	font-size: 125%;
+}
+
+/* Form */
+form{
+	border: 1px solid black;
+	margin-top: 30px;
+	padding-bottom: 10px;
+}
+form h2{
+	margin: 0px;
+	text-align: center;
+}
+form p{
+	margin: 10px 0px 10px;
+}
+input[type="text"]{
+	width: 85%;
+	margin-left: 27px;
+	margin-bottom: 0px;
+	border-radius: 0%;
+	border: 1px solid #E4BC7C;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+input[type="tel"]{
+	width: 85%;
+	margin-left: 27px;
+	border-radius: 0%;
+	border: 1px solid #E4BC7C;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+input[type="submit"]{
+	background-color: #E4BC7C;
+	margin-top: 10px;
+	width: 80px;
+	border: 1px solid black;
 }

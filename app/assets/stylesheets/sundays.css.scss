@@ -8,27 +8,19 @@
 #sfirstColumn{
   margin-top: 20px;
   padding-top: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  width: 72.5%;
-  margin-left: 176px;
+  width: 67.1%;
+  margin-left: 210px;
 }
 #ssecondColumn{
   padding: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
   margin-left: 225px;
-  margin-right: 0px;
   margin-top: 30px;
   float: left;
   width: 30%;
 }
 #sthirdColumn{
   padding: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
   background-color: #E4BC7C;
-  margin-left: 0px;
   margin-right: 225px;
   margin-top: 30px;
   float: right;
@@ -58,7 +50,14 @@
   padding-left: 0px;
   padding-right: 0px;
 }
-
+#paragraphPadding{
+  padding-bottom: 20px;
+}
+#redLine{
+  border-bottom: 1px solid #933D2F;
+  margin-left: 160px;
+  margin-right: 70px;
+}
 .sunday-image{
   width: 70%;
 }

@@ -1,4 +1,39 @@
-<iframe 
-	src="https://www.google.com/maps/place/110+Orr+St,+Columbia,+MO+65201/@38.9534872,-92.324958,15z/data=!4m2!3m1!1s0x87dcb7c325fb76ef:0x35ac908f7cb3984a?sa=X&ei=zZQgVJHjM8OjyASq84KQBg&ved=0CB0Q8gEwAA"
-	scrolling="yes">
-</iframe>
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBni7kIfLZX-R3x9tCtKIK8UMKZEm53-o4&sensor=false">
+</script>
+
+<script
+src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+</script>
+
+<script>
+var myCenter=new google.maps.LatLng(38.9534872,-92.324958);
+
+function initialize()
+{
+var mapProp = {
+  center:myCenter,
+  zoom:15,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker=new google.maps.Marker({
+  position:myCenter,
+  });
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+
+<body>
+<div id="googleMap" style="width:384px;height:250px;"></div>
+
+</body>
+</html>

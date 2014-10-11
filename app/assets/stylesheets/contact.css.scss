@@ -6,38 +6,49 @@
 	height: 100%;
 }
 #cfirstColumn{
-	margin-top: 50px;
-	padding-top: 20px;
-	padding-left: 50px;
-	padding-right: 50px;
+	margin-top: 20px;
+	padding-top: 50px;
+	width: 67.1%;
+	margin-left: 210px;
 }
 #csecondColumn{
 	padding: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 225px;
+	margin-right: 0px;
 	margin-top: 30px;
-	margin-left: 100px;
-	width: 40%;
+	width: 30%;
 	float: left;
 }
 #cthirdColumn{
 	padding: 0px;
-	margin-top: 30px;
-	margin-right: 100px;
-	width: 40%;
-	float: right;
+  	padding-left: 0px;
+  	padding-right: 0px;
+  	margin-left: 0px;
+  	margin-right: 225px;
+  	margin-top: 30px;
+  	float: right;
+  	width: 30%;
 }
 #rowOne img{
-	height: 200px;
-	padding-left: 20px;
-	padding-right: 40px;
+	width: 100%;
+  	padding-left: 100px;
+  	padding-right: 100px;
+  	padding: 0;
+  	height: 250px;
 }
 .cfontOne{
 	margin-top: 0px;
-	padding-left: 40px;
-	padding-right: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 .cfontTwo{
 	margin-top: 0px;
-	padding-left: 20px;
-	padding-right: 40px;
+	padding-left: 0px;
+	padding-right: 0px;
 	text-align: left;
+}
+.leftContact{
+	padding-right:150px;
 }

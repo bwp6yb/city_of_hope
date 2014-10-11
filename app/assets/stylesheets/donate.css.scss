@@ -6,35 +6,48 @@
 	height: 100%;
 }
 #dfirstColumn{
-	margin-top: 50px;
-	padding-top: 20px;
-	padding-left: 50px;
-	padding-right: 50px;
+	margin-top: 20px;
+	padding-top: 50px;
+	width: 67.1%;
+	margin-left: 210px;
 }
 #dsecondColumn{
 	padding: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 225px;
+	margin-right: 0px;
 	margin-top: 30px;
-	margin-left: 100px;
-	width: 40%;
 	float: left;
+	width: 30%;
 }
 #dthirdColumn{
 	padding: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 225px;
 	margin-top: 30px;
-	margin-right: 100px;
-	width: 40%;
 	float: right;
+	width: 30%;
 }
 #rowOne img{
-	height: 200px;
+	width: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding: 0;
+	height: 250px;
 }
 .dfontOne{
 	margin-top: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
+  	padding-left: 0px;
+  	padding-right: 0px;
 }
 .dfontTwo{
 	margin-top: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
+}
+.spacing{
+	word-spacing: 35px;
 }

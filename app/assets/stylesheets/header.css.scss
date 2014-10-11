@@ -37,23 +37,32 @@ div#header{
 li.dropdown{
 	padding-left: 15px;
 }
-/*
-ul.dropdown-menu{
-	background-color: #933D2F;
-}
-
-ul.dropdown-menu{
-	color: #933D2F !important;
-}
-
-
-*/
-
 .navbar-fixed-top .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
 	background-color: #933D2F;
 	color: white;
 }
-
+.navbar .nav > li{
+	padding-left: 25px;
+}
+.navbar-nav>li>.dropdown-menu{
+	margin-left: 18px;
+	box-shadow: none;
+	border: none;
+}
+.navbar .nav > li > .dropdown-menu:before{
+	border: 0px !important;
+}
+.navbar .nav > li > .dropdown-menu:after{
+	border-bottom: 8px solid #933D2F !important;
+	left: 30px !important;
+	top: -8px !important;
+}
+.dropdown-menu li>a:hover{
+	background:#933D2F !important; 
+}
 ul.dropdown-menu{
 	background-color:  #933D2F !important;
+	min-width: 125px;
+	border-radius: 0px;
+	box-shadow: 0px;
 }
