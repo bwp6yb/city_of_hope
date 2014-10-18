@@ -1,24 +1,11 @@
 @import "bootstrap" ;
 
 #sundaysPage{
-  background-color: white;
+  background-color: #F9F9F9;
   width: 100%;
   height: 100%;
 }
-#sfirstColumn{
-  margin-top: 20px;
-  padding-top: 50px;
-  width: 67.1%;
-  margin-left: 210px;
-}
-#ssecondColumn{
-  padding: 0px;
-  margin-left: 225px;
-  margin-top: 30px;
-  float: left;
-  width: 30%;
-}
-#sthirdColumn{
+#sundayThirdColumn{
   padding: 0px;
   background-color: #E4BC7C;
   margin-right: 225px;
@@ -26,40 +13,47 @@
   float: right;
   width: 30%;
 }
-#rowOne img{
-  width: 100%;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding: 0;
-  height: 250px;
-}
-.sfontOne img {
-  width: 160px;
-  height: 150px;
-  float: left;
-  padding-right: 10px;
-}
 .sfontOne{
   margin-top: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
+  img {
+    width: 200px;
+    height: 150px;
+    float: left;
+    padding-right: 10px;
+  }
 }
 .sfontTwo{
   margin-top: 0px;
   color: white;
-  padding-left: 0px;
-  padding-right: 0px;
 }
 #paragraphPadding{
   padding-bottom: 20px;
 }
 #redLine{
   border-bottom: 1px solid #933D2F;
-  margin-left: 160px;
-  margin-right: 70px;
+  margin-left: 201px;
+  margin-right: 40px;
 }
 .sunday-image{
-  width: 70%;
+  width: 100%;
+}
+.sundayAlignment{
+  padding-left: 10px;
+  padding-right: 40px;
+}
+.smallerFont{
+  font-size: 150%;
+}
+.sundayTop{
+  padding-top: 5px;
+}
+.sundayMiddle{
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.sundayBottom{
+  padding-top: 5px;
+  padding-bottom: 30px;
 }
 
 

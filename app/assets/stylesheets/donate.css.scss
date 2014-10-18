@@ -1,53 +1,16 @@
 @import "bootstrap";
 
 #donatePage{
-	background-color: white;
+	background-color: #F9F9F9;
 	width: 100%;
 	height: 100%;
 }
-#dfirstColumn{
-	margin-top: 20px;
-	padding-top: 50px;
-	width: 67.1%;
-	margin-left: 210px;
-}
-#dsecondColumn{
-	padding: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	margin-left: 225px;
-	margin-right: 0px;
-	margin-top: 30px;
-	float: left;
-	width: 30%;
-}
-#dthirdColumn{
-	padding: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	margin-left: 0px;
-	margin-right: 225px;
-	margin-top: 30px;
-	float: right;
-	width: 30%;
-}
-#rowOne img{
-	width: 100%;
-	padding-left: 100px;
-	padding-right: 100px;
-	padding: 0;
-	height: 250px;
-}
-.dfontOne{
-	margin-top: 0px;
-  	padding-left: 0px;
-  	padding-right: 0px;
-}
 .dfontTwo{
 	margin-top: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
 }
 .spacing{
 	word-spacing: 35px;
+}
+.donateFont{
+	font-size: 125%;
 }

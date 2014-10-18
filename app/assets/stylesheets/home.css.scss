@@ -1,0 +1,33 @@
+#homePage{
+	background-color: #F9F9F9;
+}
+.image{
+	position: relative;
+	width: 100%;
+}
+#homeImage{
+	display: block;
+	width: 950px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
+}
+#homeTextOne{
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	text-align: center;
+	font-size: 800%;
+	font-weight: bold;
+	color: #F9F9F9;
+}
+#homeTextTwo{
+	position: absolute;
+	top: 265px;
+	width: 100%;
+	text-align: center;
+	font-size: 225%;
+	font-weight: bold;
+	color: #F9F9F9;
+}

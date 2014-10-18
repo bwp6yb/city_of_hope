@@ -1,2 +1,23 @@
-<h1>StaticPages#communities</h1>
-<p>Find me in app/views/static_pages/communities.html.erb</p>
+<%= stylesheet_link_tag "communities" %>
+
+<div class="container" id="communitiesPage">
+	<div class="row" id="rowOne">
+		<div class="col-md-12" id="firstColumn">
+			<%= image_tag "crowd.jpg", width: "100%" %>
+		</div>
+	</div>
+	<div class="row" id="rowTwo">
+		<div class="col-md-6" id="secondColumn">
+			<h2 class="fontOne" id="redBackground">LIFE GROUPS</h2>
+			<p class="fontOne paragraphFont">God invites us to live in intentional community. Life groups produce meaningful connections where life change can take place. These groups aspire to be a place for honest discussion and a safe place where people can be supported as they walk through life together!</p><br /><br /><br />
+			<h4 class="fontOne paragraphFont communitiesFont"><span style="color: #933D2F">GROUPS</span></h4><br />
+			<p class="fontOne paragraphFont communitiesFont">Tony/Brandt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Do Swenson</p>
+			<p class="fontOne paragraphFont communitiesFont raise">&nbsp;(mens) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(girls)</p><br />
+			<p class="fontOne paragraphFont communitiesFont">Barry/Lori&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Joe/John</p><br />
+			<p class="fontOne paragraphFont communitiesFont">Joe/Jennie&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dillan/Mariah</p>
+		</div>
+		<div class="col-md-6" id="thirdColumn">
+			<%= image_tag "church-131.jpg", width: "100%" %>
+			<%= render 'layouts/formtwo' %>
+		</div>
+	</div>

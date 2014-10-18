@@ -1,60 +1,16 @@
 @import "bootstrap";
 
 #servicePage{
-	background-color: white;
+	background-color: #F9F9F9;
 	width: 100%;
 	height: 100%;
-}
-#afirstColumn{
-	margin-top: 20px;
-	padding-top: 50px;
-	width: 67.1%;
-	margin-left: 210px;
-}
-#asecondColumn{
-	padding: 0px;
-  	padding-left: 0px;
-  	padding-right: 0px;
-  	margin-left: 225px;
-  	margin-right: 0px;
-  	margin-top: 30px;
-  	float: left;
-  	width: 30%;
-}
-#athirdColumn{
-	padding: 0px;
-  	padding-left: 0px;
-  	padding-right: 0px;
-  	margin-left: 0px;
-  	margin-right: 225px;
-  	margin-top: 30px;
-  	float: right;
-  	width: 30%;
-}
-#rowOne img{
-	width: 100%;
-  	padding-left: 100px;
-  	padding-right: 100px;
-  	padding: 0;
-  	height: 250px;
 }
 #rowTwo img{
 	margin-top: 0px;
 	width: 100%;
 	height: 200px;
 }
-.afontOne{
-	margin-top: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-}
-.spacing{
-	word-spacing: 35px;
-}
-.extrasFont{
-	font-size: 135%;
-}
-.extraFont{
+.serviceFont{
 	font-size: 125%;
 }
 
@@ -63,13 +19,15 @@ form{
 	border: 1px solid black;
 	margin-top: 30px;
 	padding-bottom: 10px;
-}
-form h2{
-	margin: 0px;
-	text-align: center;
-}
-form p{
-	margin: 10px 0px 10px;
+	background-color: #F6F6F6;
+	h2{
+		margin: 0px;
+		text-align: center;
+		padding-right: 250px;
+	}
+	p{
+		margin: 10px 0px 10px;
+	}
 }
 input[type="text"]{
 	width: 85%;
@@ -94,3 +52,6 @@ input[type="submit"]{
 	width: 80px;
 	border: 1px solid black;
 }
+
+
+
