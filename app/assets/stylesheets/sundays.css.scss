@@ -1,10 +1,5 @@
 @import "bootstrap" ;
 
-#sundaysPage{
-  background-color: #F9F9F9;
-  width: 100%;
-  height: 100%;
-}
 #sundayThirdColumn{
   padding: 0px;
   background-color: #E4BC7C;
@@ -12,60 +7,87 @@
   margin-top: 30px;
   float: right;
   width: 30%;
+  p {
+    color: white;
+  }
 }
-// .sfontOne{
-//   margin-top: 0px;
-//   img {
-//     width: 200px;
-//     height: 150px;
-//     float: left;
-//     padding-right: 10px;
-//   }
-// }
+
 .sfontTwo{
   margin-top: 0px;
   color: white;
 }
+
 #paragraphPadding{
   padding-bottom: 20px;
 }
+
 #redLine{
   border-bottom: 1px solid #933D2F;
-  margin-left: 201px;
-  margin-right: 40px;
+  margin-left: -25px;
+  margin-top: -5px;
+  width: 90%;
 }
-.sunday-image{
-  width: 100%;
-}
+
 .sundayAlignment{
   padding-left: 10px;
   padding-right: 40px;
 }
+
 .smallerFont{
-  font-size: 150%;
+  font-size: 150% !important;
 }
+
 .sundayTop{
   padding-top: 5px;
+  font-family: Forum-Regular;
 }
+
 .sundayMiddle{
   padding-top: 10px;
   padding-bottom: 15px;
+  font-family: Forum-Regular;
 }
+
 .sundayBottom{
   padding-top: 5px;
   padding-bottom: 30px;
+  font-family: Forum-Regular;
 }
 
-.sfontOne{
-  margin-top: 0px;
-  img {
-    width: 200px;
-    height: 150px;
-    float: left;
-    padding-right: 10px;
-  }
+.bible-image img{
+  position: relative;
+  width: 200px;
+  height: 150px;
+  float: left;
+  padding-right: 0px;
+  margin-left: -15px;
+  margin-top: -5px;
 }
 
+p#sermonNotes {
+  position: absolute;
+  color: white;
+  font-family: axis;
+  margin-top: 20px;
+  margin-left: -5px;
+}
+
+.weeklyVerse {
+  margin-top: -15px;
+  font-size: 150%;
+}
+
+.scriptureTopic {
+  font-size: 100% !important;
+}
+
+.date, .scriptureTopic, .weeklyVerse {
+  margin-left: -25px;
+}
+
+.date {
+  font-family: Forum-Regular;;
+}
 @media only screen and (max-width: 1024px) {
     #sundayThirdColumn{
       padding: 0px;
@@ -87,7 +109,7 @@
     margin: 0 !important;
 
   }
-  .scripture-topic {
+  .scriptureTopic {
     padding: 0 !important;
     margin: 0 !important;
   }

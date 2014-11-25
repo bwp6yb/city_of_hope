@@ -1,3 +1,5 @@
+@import "bootstrap";
+
 .navbar-fixed-top {
     background-color: #E4BC7C;
     border-color: #E4BC7C;
@@ -35,21 +37,37 @@ div#header{
 	height: 100%;
 	padding-top: 5px;
 }
-
+ul li {
+	font-size: 90%;
+}
+ul li ul li {
+	font-size: 85%;
+}
 li.dropdown{
 	padding-left: 15px;
 }
 .navbar-fixed-top .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
 	background-color: #933D2F;
 	color: white;
+	font-family: axis;
 }
 .navbar .nav > li{
 	padding-left: 25px;
+	text-shadow: none;
+}
+.navbar .nav > li > a {
+	float: none;
+	text-decoration: none;
+	font-family: axis;
+	font-size: 130%;
+	text-shadow: 0 0 0 !important;
+	padding: 13px 0 !important;
 }
 .navbar-nav>li>.dropdown-menu{
-	margin-left: 18px;
+	margin-left: 15px;
 	box-shadow: none;
 	border: none;
+	margin-top: -5px;
 }
 .navbar .nav > li > .dropdown-menu:before{
 	border: 0px !important;
