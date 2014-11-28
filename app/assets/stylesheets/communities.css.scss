@@ -65,4 +65,9 @@ input[type="submit"]{
   height: 350px;
 }
 
+.col-xs-6.clickable:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 
