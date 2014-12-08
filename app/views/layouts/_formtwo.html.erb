@@ -1,14 +1,29 @@
-<form action="MAILTO:ccfjoe@juno.com" method="post" enctype="text/plain">
-	<div>
-		<h2 id="redBackground">NAMES </h2>
-	</div>
-	<div id="formAlignment">
-		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name</p>
-		<input type="text" id="hello" name="name"><br />
-		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-mail</p>
-		<input type="text" name="mail"><br />
-		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone</p>
-		<input type="tel" name="urstel"><br />
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="SUBMIT">
-	</div>
-</form>
+<%= form_tag "/emails", method: :post %>
+
+<div>
+  <h2 id="redBackground" class = "name-label">NAMES </h2>
+</div>
+
+<br />
+
+<div class="form-group hidden">
+  <%= label_tag :leader_name, "Leader Name", class: "form-label" %>
+  <input type="text" name="email[leader_name]"><br />
+</div>
+
+<div class="form-group">
+  <%= label_tag :name, "Name", class: "form-label" %>
+  <input type="text" name="email[name]"><br />
+</div>
+
+<div class="form-group">
+  <%= label_tag :email, "Email", class: "form-label" %>
+  <input type="text" name="email[email_address]"><br />
+</div>
+
+<div class="form-group">
+  <%= label_tag :phone, "Phone", class: "form-label" %>
+  <input type="text" name="email[phone]"><br />
+</div>
+
+<%= submit_tag "Submit", class: "form-submit" %>

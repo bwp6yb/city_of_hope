@@ -1,5 +1,9 @@
 CityOfHope::Application.routes.draw do
+  get "emails/create"
   root 'static_pages#home'
+
+  match '/emails', to: 'emails#create', via: :post
+
   match 'about',      to: 'static_pages#about',        via: 'get'
   match 'sundays',    to: 'static_pages#sundays',      via: 'get'
   match 'vision',     to: 'static_pages#vision',       via: 'get'
