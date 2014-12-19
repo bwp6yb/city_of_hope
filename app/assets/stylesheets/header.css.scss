@@ -19,6 +19,21 @@ div#header{
 	background-color: #E4BC7C !important;
 } 
 
+.logo {
+  height: 50px;
+	width: 50px;
+	margin-top: 2px;
+	margin-left: 160px;
+	float: left;
+  cursor: pointer;
+}
+
+.navbar-collapse.collapse {
+  margin-left: 195px;
+  width: 500px;
+  margin-right: 0px;
+}
+
 .temp-circle{
 	border-radius: 100%;
 	width: 50px;
