@@ -24,7 +24,7 @@ html, body {
   background-color: #F9F9F9;
   width: 100%;
   height: 100%;
-  background-image: url("/gray.png")
+  background-image: url("/gray.png");
 }
 .row.row2 {
   padding-bottom: 130px;
@@ -96,6 +96,17 @@ p, h3, h4 {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: Fabrica-Regular;
+  src: url('/fonts/Fabrica-Regular.eot');
+  src: url('/fonts/Fabrica-Regular.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/Fabrica-Regular.woff') format('woff'),
+  url('/fonts/Fabrica-Regular.ttf') format('truetype'),
+  url('/fonts/Fabrica-Regular.svg#ForumRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .row .col-md-6 h2 {
 	background-color:#933D2F;
 	color:white;
