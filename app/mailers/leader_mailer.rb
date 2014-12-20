@@ -11,6 +11,6 @@ class LeaderMailer < ActionMailer::Base
   end
 
   def service_email(email_info)
-  	mail(subject: "Emailer wants information on service groups", from email_info[:email_address])
+  	mail(subject: "#{email_info[:name]} wants information on service groups", from: email_info[:email_address])
   end
 end
