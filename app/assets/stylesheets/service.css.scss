@@ -7,9 +7,17 @@ h4 {
 	font-family: axis;
 	font-size: 125%;
 }
-.clickable:hover {
-	text-decoration: underline;
+.col-xs-6.clickable:hover {
+	text-decoration: underline; 
+	-moz-text-decoration-color: red;
+    text-decoration-color: red;
 	cursor: pointer;
+}
+.row.interestsRow,
+.col-xs-6.clickable {
+	padding-top: 5px;
+	font-size: 125% !important;
+	font-weight: bold !important;
 }
 /* Form */
 form{
