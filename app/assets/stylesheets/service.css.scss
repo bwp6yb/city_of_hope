@@ -21,41 +21,41 @@ h4 {
 }
 /* Form */
 form{
-	border: 1px solid black;
-	margin-top: 30px;
-	padding-bottom: 10px;
-	background-color: #F6F6F6;
+	border: 1px solid black !important;
+	margin-top: 30px !important;
+	padding-bottom: 10px !important;
+	background-color: #F6F6F6 !important;
 	h2{
-		margin: 0px;
-		text-align: center;
-		padding-right: 250px;
+		margin: 0px !important;
+		text-align: center !important;
+		padding-right: 250px !important;
 	}
 	p{
-		margin: 10px 0px 10px;
+		margin: 10px 0px 10px !important;
 	}
 }
 input[type="text"]{
-	width: 85%;
-	margin-left: 27px;
-	margin-bottom: 0px;
-	border-radius: 0%;
-	border: 1px solid #E4BC7C;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	width: 85% !important;
+	margin-left: 27px !important;
+	margin-bottom: 0px !important;
+	border-radius: 0% !important;
+	border: 1px solid #E4BC7C !important;
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
 }
 input[type="tel"]{
-	width: 85%;
-	margin-left: 27px;
-	border-radius: 0%;
-	border: 1px solid #E4BC7C;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	width: 85% !important;
+	margin-left: 27px !important;
+	border-radius: 0% !important;
+	border: 1px solid #E4BC7C !important;
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
 }
 input[type="submit"]{
-	background-color: #E4BC7C;
-	margin-top: 10px;
-	width: 80px;
-	border: 1px solid #E4BC7C;
+	background-color: #E4BC7C !important;
+	margin-top: 10px !important;
+	width: 80px !important;
+	border: 1px solid #E4BC7C !important;
 }
 @media only screen and (max-width: 1024px) {
 	h2{
