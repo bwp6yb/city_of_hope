@@ -3,7 +3,7 @@ class LeaderMailer < ActionMailer::Base
 
   sendgrid_category :use_subject_lines
 
-  default to: "lappp9@gmail.com"
+  default to: "dillanmitchell2086@yahoo.com"
   #default to: "ccfjoe@juno.com"
 
   def community_email(email_info)
