@@ -85,3 +85,35 @@ h2#redBackground {
   padding-left: 0;
   padding-right: 0 !important;
 }
+
+/* JQuery Dialog Box */
+.ui-dialog {
+	border-radius: 0% !important;
+	border: 1px solid black !important;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0px !important;
+	background: #F6F6F6 !important;
+}
+
+.ui-widget-header {
+	border-radius: 0% !important;
+	border: 1px solid #933D2F !important;
+	margin: -1% !important;
+	width: 102% !important;
+	color: white !important;
+	text-align: center !important;
+	background: #933D2F !important;
+}
+
+.ui-draggable .ui-dialog-titlebar {
+	cursor: pointer;
+}
+
+.ui-dialog-titlebar-close {
+  display: none;
+}
+
+
