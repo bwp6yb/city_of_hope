@@ -3,9 +3,9 @@
 .serviceFont{
 	font-size: 125%;
 }
-h4 {
+h4, strong {
 	font-family: axis;
-	font-size: 125%;
+	font-size: 1.3vw !important;
 }
 .col-xs-6.clickable:hover {
 	text-decoration: underline; 
@@ -13,11 +13,17 @@ h4 {
     text-decoration-color: red;
 	cursor: pointer;
 }
-.row.interestsRow,
+.row.InterestsRow {
+	padding-top: 5px;
+	font-size: 1.5vw !important;
+	line-height: 1.7vw !important;
+	font-weight: bold;
+}
 .col-xs-6.clickable {
 	padding-top: 5px;
-	font-size: 125% !important;
-	font-weight: bold !important;
+	font-size: 1.5vw !important;
+	line-height: 1.7vw !important;
+	font-weight: bold;
 }
 /* Form */
 form{
@@ -54,9 +60,11 @@ input[type="tel"]{
 input[type="submit"]{
 	background-color: #E4BC7C !important;
 	margin-top: 10px !important;
-	width: 80px !important;
+	width: 100px !important;
+	font-size: 1.0vw;
 	border: 1px solid #E4BC7C !important;
 }
+
 @media only screen and (max-width: 1024px) {
 	h2{
 		margin: 0px;
@@ -66,9 +74,3 @@ input[type="submit"]{
 	}
 }
 
-.service-banner{
-  background-image: url('/church-150.png');
-  background-size: cover;
-  width: 100%;
-  height: 350px;
-}

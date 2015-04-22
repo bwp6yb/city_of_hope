@@ -1,7 +1,14 @@
 @import "bootstrap";
 
+.contact-banner{
+  background-image: url('/church-121.png');
+  background-size: cover;
+  width: 100%;
+  height: 25vw;
+}
+
 .contactFont{
-	font-size: 150% !important;
+	font-size: 1.8vw !important;
 }
 
 div#googleMap {

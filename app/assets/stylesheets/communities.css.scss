@@ -1,7 +1,14 @@
 @import "bootstrap";
 
+.community-banner{
+  background-image: url('/community.png');
+  background-size: cover;
+  width: 100%;
+  height: 25vw;
+}
+
 .communitiesFont{
-	font-size: 125%;
+	font-size: 1.8vw;
 	font-family: axis;
 	padding-top: 1%;
 	margin-bottom: 25px;
@@ -11,10 +18,10 @@
 	font-size: 14px;
 }
 
-.groupsRow {
-	
+.groupsRow {	
 	padding-top: 5px;
-	font-size: 120%;
+	font-size: 1.5vw;
+	line-height: 1.7vw;
 	font-weight: bold;
 }
 .col-xs-6 {
@@ -56,15 +63,9 @@ input[type="tel"]{
 input[type="submit"]{
 	background-color: #E4BC7C !important;
 	margin-top: 10px !important;
-	width: 80px !important;
+	width: 100px !important;
+	font-size: 1.0vw;
 	border: 1px solid #E4BC7C !important;
-}
-
-.community-banner{
-  background-image: url('/community.png');
-  background-size: cover;
-  width: 100%;
-  height: 350px;
 }
 
 .col-xs-6.clickable:hover {
@@ -75,6 +76,9 @@ input[type="submit"]{
 
 .form-label {
   padding-left: 27px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
+  font-weight: normal;
 }
 
 .form-submit {
@@ -84,6 +88,10 @@ input[type="submit"]{
 h2#redBackground {
   padding-left: 0;
   padding-right: 0 !important;
+}
+
+.form-group {
+	margin-bottom: 1.5vw;
 }
 
 /* JQuery Dialog Box */

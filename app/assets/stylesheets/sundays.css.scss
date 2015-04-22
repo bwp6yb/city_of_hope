@@ -9,6 +9,8 @@
   width: 30%;
   p {
     color: white;
+    font-size: 1.3vw;
+    line-height: 1.6vw;
   }
 }
 
@@ -18,7 +20,7 @@
 }
 
 #paragraphPadding{
-  padding-bottom: 20px;
+  padding-bottom: 6%;
 }
 
 #redLine{
@@ -29,35 +31,35 @@
 }
 
 .sundayAlignment{
-  padding-left: 10px;
-  padding-right: 40px;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .smallerFont{
-  font-size: 150% !important;
+  font-size: 1.8vw;
 }
 
 .sundayTop{
-  padding-top: 5px;
+  padding-top: 2%;
   font-family: Forum-Regular;
 }
 
 .sundayMiddle{
-  padding-top: 10px;
-  padding-bottom: 12px;
+  padding-top: 2%;
+  padding-bottom: 2%;
   font-family: Forum-Regular;
 }
 
 .sundayBottom{
-  padding-top: 5px;
-  padding-bottom: 12px;
+  padding-top: 2%;
+  padding-bottom: 2%;
   font-family: Forum-Regular;
 }
 
 .bible-image img{
   position: relative;
-  width: 200px;
-  height: 150px;
+  width: 100%;
+  height: 100%;
   float: left;
   padding-right: 0px;
   margin-left: -15px;
@@ -73,12 +75,16 @@ p#sermonNotes {
 }
 
 .weeklyVerse {
-  margin-top: -15px;
-  font-size: 145%;
+  margin-top: -20%;
+  font-size: 1.8vw;
 }
 
 .scriptureTopic {
-  font-size: 100% !important;
+  font-size: 1.1vw !important;
+}
+
+.date {
+  font-size: 1.2vw;
 }
 
 .date, .scriptureTopic, .weeklyVerse {
@@ -88,6 +94,7 @@ p#sermonNotes {
 .date {
   font-family: Forum-Regular;;
 }
+
 @media only screen and (max-width: 1024px) {
     #sundayThirdColumn{
       padding: 0px;
@@ -126,9 +133,8 @@ p#sermonNotes {
   background-image: url('/sunday.png');
   background-size: cover;
   width: 100%;
-  height: 350px;
+  height: 25vw;
 }
-
 
 
 
