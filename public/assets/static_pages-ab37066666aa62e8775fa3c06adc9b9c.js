@@ -1,0 +1,1 @@
+!function(){$(function(){return $(".clickable").click(function(){var a;return a=$(this).data("name"),$(".name-label").html(a),$("input[name='email[leader_name]']").val(a)})})}.call(this);
