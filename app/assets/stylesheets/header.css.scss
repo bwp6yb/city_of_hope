@@ -93,11 +93,14 @@ li.dropdown{
 	left: 20px !important;
 	top: -8px !important;
 }
-.dropdown-menu li>a:hover{
-	background:#933D2F !important; 
+.dropdown-menu > li > a:hover {
+	background-color: #933D2F !important; 
+}
+.navbar .nav > li > a:hover {
+	background-color: #E4BC7C !important; 
 }
 ul.dropdown-menu{
-	background-color:  #933D2F !important;
+	background-color: #933D2F !important;
 	min-width: 125px;
 	border-radius: 0px;
 	box-shadow: 0px;

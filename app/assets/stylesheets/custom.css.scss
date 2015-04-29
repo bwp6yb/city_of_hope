@@ -127,29 +127,5 @@ p, h3, h4 {
   font-family: axis;
 }
 
-@media only screen and (max-width: 1024px) {
-	  .row .col-md-12{
-      margin-top: 20px;
-      padding-top: 50px;
-      width: 68%;
-      margin-left: 165px;
-    }
 
-    #secondColumn{
-      padding: 0px;
-      margin-left: 180px;
-      margin-top: 20px;
-      float: left;
-      width: 30%;
-    }
-
-    #thirdColumn{
-      padding: 0px;
-      margin-left: 0px;
-      margin-right: 180px;
-      margin-top: 20px;
-      float: right;
-      width: 30%;
-   }
-}
 

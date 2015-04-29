@@ -25,7 +25,4 @@ class StaticPagesController < ApplicationController
 
   def donate
   end
-
-  def practice
-  end
 end

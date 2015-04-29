@@ -8,8 +8,8 @@
 }
 #homeImage{
 	display: block;
-	width: 950px;
-	height: 600px;
+	width: 74vw;
+  	height: 47vw;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 75px;
@@ -17,13 +17,14 @@
 }
 #homeTextOne{
 	position: absolute;
-	top: 275px;
-	width: 100%;
+	top: 20vw;
+  	width: 100%;
 	text-align: center;
-	font-size: 800%;
+	font-size: 9vw;
 	font-weight: bold;
 	color: #F9F9F9;
 	font-family: axis;
+	margin-left: -1.5vw;
 }
 #homeTextTwo{
 	position: absolute;
@@ -189,14 +190,6 @@ input[type="submit"]{
 	margin-top: 10px;
 	width: 80px;
 	border: 1px solid #E4BC7C;
-}
-@media only screen and (max-width: 1024px) {
-	h2{
-		margin: 0px;
-		text-align: left !important;
-		padding-right: 0px !important;
-		padding-left: 30px !important;
-	}
 }
 
 .service-banner{

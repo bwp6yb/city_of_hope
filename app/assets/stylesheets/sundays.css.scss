@@ -75,7 +75,7 @@ p#sermonNotes {
 }
 
 .weeklyVerse {
-  margin-top: -20%;
+  margin-top: -2.7vw;
   font-size: 1.8vw;
 }
 
@@ -95,46 +95,14 @@ p#sermonNotes {
   font-family: Forum-Regular;;
 }
 
-@media only screen and (max-width: 1024px) {
-    #sundayThirdColumn{
-      padding: 0px;
-      background-color: #E4BC7C;
-      margin-right: 180px;
-      margin-top: 30px;
-      float: right;
-      width: 30%;
-  }
-
-  #redFont {
-    font-size: 12pt !important;
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-  .date {
-    font-size: 11pt !important;
-    padding: 0 !important;
-    margin: 0 !important;
-
-  }
-  .scriptureTopic {
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-
-  .bible-image{
-    width: 150px !important;
-    height: auto !important;
-    padding-top: 15px;
-    margin-left: -15px;
-  }
-}
-
 .sunday-banner{
   background-image: url('/sunday.png');
   background-size: cover;
   width: 100%;
   height: 25vw;
 }
+
+
 
 
 
