@@ -23,7 +23,7 @@
 	font-size: 9vw;
 	font-weight: bold;
 	color: #F9F9F9;
-	font-family: axis;
+	font-family: piersans !important;
 	margin-left: -1.5vw;
 }
 #homeTextTwo{
@@ -100,7 +100,8 @@ li.dropdown{
 .navbar-fixed-top .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
 	background-color: #933D2F;
 	color: white;
-	font-family: axis;
+	font-family: piersans !important;
+	letter-spacing: 1.25px;
 }
 .navbar .nav > li{
 	padding-left: 25px;
@@ -109,10 +110,11 @@ li.dropdown{
 .navbar .nav > li > a {
 	float: none;
 	text-decoration: none;
-	font-family: axis;
+	font-family: piersans !important;
 	font-size: 130%;
 	text-shadow: 0 0 0 !important;
 	padding: 13px 0 !important;
+	font-weight: bold !important;
 }
 .navbar-nav>li>.dropdown-menu{
 	margin-left: 15px;

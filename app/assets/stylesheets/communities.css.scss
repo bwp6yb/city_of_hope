@@ -9,7 +9,7 @@
 
 .communitiesFont{
 	font-size: 1.8vw;
-	font-family: axis;
+	font-family: piersans;
 	padding-top: 1%;
 	margin-bottom: 25px;
 }
@@ -25,7 +25,7 @@
 	font-weight: bold;
 }
 .col-xs-6 {
-	font-family: Forum-Regular;
+	font-family: piersans;
 }
 
 /* Form */
@@ -66,6 +66,7 @@ input[type="submit"]{
 	width: 100px !important;
 	font-size: 1.0vw;
 	border: 1px solid #E4BC7C !important;
+	font-family: piersans;
 }
 
 .col-xs-6.clickable:hover {
@@ -78,7 +79,13 @@ input[type="submit"]{
   padding-left: 27px;
   font-size: 1.3vw;
   line-height: 1.5vw;
-  font-weight: normal;
+  font-weight: bold;
+  font-family: piersans !important;
+}
+
+label.form-label {
+  font-family: piersans !important;
+  font-weight: bold;
 }
 
 .form-submit {
