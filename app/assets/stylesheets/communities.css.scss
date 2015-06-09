@@ -9,7 +9,7 @@
 
 .communitiesFont{
 	font-size: 1.8vw;
-	font-family: piersans, Arial, Helvetica, sans-serif;
+	font-family: piersans, Arial, Helvetica, sans-serif !important;
 	padding-top: 1%;
 	margin-bottom: 25px;
 }
@@ -25,7 +25,7 @@
 	font-weight: bold;
 }
 .col-xs-6 {
-	font-family: piersans, Arial, Helvetica, sans-serif;
+	font-family: piersans, Arial, Helvetica, sans-serif !important;
 }
 
 /* Form */
@@ -66,7 +66,7 @@ input[type="submit"]{
 	width: 100px !important;
 	font-size: 1.0vw;
 	border: 1px solid #E4BC7C !important;
-	font-family: piersans, Arial, Helvetica, sans-serif;
+	font-family: piersans, Arial, Helvetica, sans-serif !important;
 }
 
 .col-xs-6.clickable:hover {

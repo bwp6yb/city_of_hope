@@ -9,6 +9,7 @@ html, body {
 	min-height:100%;
 	line-height: 0px;
 	background-color: #F9F9F9;
+  font-family: piersans, Arial, Helvetica, sans-serif !important;
 }
 #wrapper{
 	min-height: 100%;
@@ -19,6 +20,7 @@ html, body {
 	padding: 10px;
 	padding-bottom: 30px;
 	background-color: #F9F9F9;
+  font-family: piersans, Arial, Helvetica, sans-serif !important;
 }
 .container.containerPage{
   background-color: #F9F9F9;
@@ -50,8 +52,9 @@ html, body {
   margin-top: 20px;
   float: left;
   width: 30%;
+  font-family: piersans, Arial, Helvetica, sans-serif !important;
   p {
-    font-family: piersans, Arial, Helvetica, sans-serif;
+    font-family: piersans, Arial, Helvetica, sans-serif !important;
     font-size: 1.3vw;
     line-height: 1.6vw;
   }
@@ -63,6 +66,7 @@ html, body {
 	margin-top: 30px;
 	float: right;
 	width: 30%;
+  font-family: piersans, Arial, Helvetica, sans-serif !important;
   img {
     margin-top: 0px;
     width: 100%;
@@ -115,17 +119,17 @@ p, h3, h4 {
 	font-size: 1.8vw;
   font-weight: bold;
   line-height: 2vw;
-  font-family: piersans, Arial, Helvetica, sans-serif;
+  font-family: piersans, Arial, Helvetica, sans-serif !important;
   padding-top: 1%;
   a {
     color: white !important;
     text-decoration: none;
-    font-family: piersans, Arial, Helvetica, sans-serif;
+    font-family: piersans, Arial, Helvetica, sans-serif !important;
   }
 }
 #redFont{
 	color: #933D2F;
-  font-family: piersans, Arial, Helvetica, sans-serif;
+  font-family: piersans, Arial, Helvetica, sans-serif !important;
 }
 
 

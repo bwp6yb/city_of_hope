@@ -64,7 +64,7 @@ li.dropdown{
 .navbar-fixed-top .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
 	background-color: #933D2F;
 	color: white;
-	font-family: piersans, Arial, Helvetica, sans-serif;
+	font-family: piersans, Arial, Helvetica, sans-serif !important;
 }
 .navbar .nav {
 	letter-spacing: 1.25px !important;
@@ -77,7 +77,7 @@ li.dropdown{
 .navbar .nav > li > a {
 	float: none;
 	text-decoration: none;
-	font-family: piersans, Arial, Helvetica, sans-serif;
+	font-family: piersans, Arial, Helvetica, sans-serif !important;
 	font-size: 130%;
 	text-shadow: 0 0 0 !important;
 	padding: 13px 0 !important;
