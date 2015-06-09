@@ -23,7 +23,7 @@
 	font-size: 9vw;
 	font-weight: bold;
 	color: #F9F9F9;
-	font-family: piersans !important;
+	font-family: piersans, Arial, Helvetica, sans-serif !important;
 	margin-left: -1.5vw;
 }
 #homeTextTwo{
@@ -34,7 +34,7 @@
 	font-size: 225%;
 	font-weight: bold;
 	color: #F9F9F9;
-	font-family: axis;
+	font-family: axis, Arial, Helvetica, sans-serif;
 }
 .navbar-fixed-top {
     background-color: #E4BC7C;
@@ -100,7 +100,7 @@ li.dropdown{
 .navbar-fixed-top .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
 	background-color: #933D2F;
 	color: white;
-	font-family: piersans !important;
+	font-family: piersans, Arial, Helvetica, sans-serif !important;
 	letter-spacing: 1.25px;
 }
 .navbar .nav > li{
@@ -110,7 +110,7 @@ li.dropdown{
 .navbar .nav > li > a {
 	float: none;
 	text-decoration: none;
-	font-family: piersans !important;
+	font-family: piersans, Arial, Helvetica, sans-serif !important;
 	font-size: 130%;
 	text-shadow: 0 0 0 !important;
 	padding: 13px 0 !important;
@@ -152,7 +152,7 @@ ul.nav a:focus {
 	font-size: 125%;
 }
 h4 {
-	font-family: axis;
+	font-family: axis, Arial, Helvetica, sans-serif;
 	font-size: 125%;
 }
 /* Form */

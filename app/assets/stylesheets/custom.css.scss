@@ -51,7 +51,7 @@ html, body {
   float: left;
   width: 30%;
   p {
-    font-family: Forum-Regular;
+    font-family: Forum-Regular, Arial, Helvetica, sans-serif;
     font-size: 1.3vw;
     line-height: 1.6vw;
   }
@@ -115,17 +115,17 @@ p, h3, h4 {
 	font-size: 1.8vw;
   font-weight: bold;
   line-height: 2vw;
-  font-family: piersans;
+  font-family: piersans, Arial, Helvetica, sans-serif;
   padding-top: 1%;
   a {
     color: white !important;
     text-decoration: none;
-    font-family: piersans;
+    font-family: piersans, Arial, Helvetica, sans-serif;
   }
 }
 #redFont{
 	color: #933D2F;
-  font-family: piersans;
+  font-family: piersans, Arial, Helvetica, sans-serif;
 }
 
 
