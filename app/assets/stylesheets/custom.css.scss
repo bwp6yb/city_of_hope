@@ -46,7 +46,7 @@ html, body {
     padding: 0;
   }
 }
-#secondColumn{
+#secondColumn {
   padding: 0px;
   margin-left: 17.5%;
   margin-top: 20px;
@@ -59,7 +59,12 @@ html, body {
     line-height: 1.6vw;
   }
 }
-#thirdColumn{
+
+#secondColumn p {
+  font-family: piersans, Arial, Helvetica, sans-serif !important;
+}
+
+#thirdColumn {
 	padding: 0px;
 	margin-left: 0px;
 	margin-right: 17.5%;
@@ -87,16 +92,6 @@ p, h3, h4 {
   url('/fonts/axis.woff') format('woff'),
   url('/fonts/axis.ttf') format('truetype'),
   url('/fonts/axis.svg#axis') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: Forum-Regular;
-  src: url('/fonts/Forum-Regular.eot');
-  src: url('/fonts/Forum-Regular.eot?#iefix') format('embedded-opentype'),
-  url('/fonts/Forum-Regular.woff') format('woff'),
-  url('/fonts/Forum-Regular.ttf') format('truetype'),
-  url('/fonts/Forum-Regular.svg#ForumRegular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
